@@ -21,6 +21,7 @@
           <mat-select [(ngModel)] ="customerForm.position">
             <mat-option value="Manager">Manager</mat-option>
             <mat-option value="Technical">Technical</mat-option>
+            <mat-option value="Test">Technical</mat-option>
           </mat-select>
         </mat-form-field>
       </div>
@@ -31,8 +32,8 @@
         </mat-form-field>
       </div>
       <div>
-        <button mat-raised-button color="primary" (click)="create()">Save</button>     
-        <button mat-raised-button   color="warn" (click)="closeDialog()">Cancel</button>
+         <button mat-raised-button color="primary" (click)="create()">Save</button>     
+         <button mat-raised-button   color="warn" (click)="closeDialog()">Cancel</button>
       </div>
     </mat-card>
   </div>
